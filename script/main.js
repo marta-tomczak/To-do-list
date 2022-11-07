@@ -7,7 +7,7 @@ const addNewTask = (newTaskContent) => {
 
 const cleanInput = () => {
     document.querySelectorAll(".js-newTask").value = "";
-    document.querySelectorAll(".js-newTask")focus();
+    document.querySelectorAll(".js-newTask").focus();
 }; 
 
 const removeTask = (taskIndex) => {
