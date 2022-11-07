@@ -20,7 +20,7 @@ const toggleTaskDone = (taskIndex) => {
     render();
 };
 
-const bindtoggleDoneEvents = () => {
+const bindtoggleDoneEvents = () => {}
 const toggleDoneButtons = document.querySelectorAll(".js-toogleDone");
 
 toggleDoneButtons.forEach((toggleDoneButton, index) => {
