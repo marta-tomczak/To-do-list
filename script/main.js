@@ -1,8 +1,3 @@
-const task = {
-  type: "done",
-  text: "Przykładowe zadanie",
-};
-const tasks = [task];
 const form = document.querySelector(".js-form");
 const input = form.querySelector(".js-newTask");
 const formButton = form.querySelector(".js-formButton");
@@ -14,7 +9,7 @@ const createTaskElement = (props) => {
   element.innerHTML = `
     <li class="tasks__item">
         <button class="tasks__button ${
-          props.type ? `tasks__button--${props.type}` : ""
+          props.done ? `tasks__button--${props.done}` : ""
         } js-task-type"></button>
         <p class="tasks__text">${props.text}</p>
         <button class="tasks__button tasks__button--delete js-task-delete">🗑️</button>
@@ -40,7 +35,7 @@ const clearInput = () => {
 };
 
 const addTask = () => {
-  jsTasks.append(createTaskElement({ type: undefined, text: input.value }));
+  jsTasks.append(createTaskElement({ done: undefined, text: input.value }));
   clearInput();
 };
 
