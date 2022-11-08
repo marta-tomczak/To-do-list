@@ -119,9 +119,7 @@ html {
 .tasks__button--done + .tasks__text {
   text-decoration: line-through;
 }
-/* .tasks__button--done {
-  background-color: green;
-} */
+
 .tasks__button--done::before {
   content: "✔";
 }
@@ -132,10 +130,6 @@ html {
 
 .tasks__button--done:active {
   color: rgb(1, 110, 0);
-}
-
-.tasks__button--undone {
-  background-color: crimson;
 }
 
 .tasks__button--delete {
