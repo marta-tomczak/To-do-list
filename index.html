@@ -1,30 +1,32 @@
 <!DOCTYPE html>
 <html lang="pl">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Marta Tomczak - To do list</title>
 
-<meta property="og:title" content="Marta Tomczak - To do list">
-<meta property="og:type" content="to do list">
-<meta property="og:url" content="">
-<link rel="icon" href="./assets/logo_photo.png">
-<meta property="og:image" content="./toDoList.jpg">
+    <meta property="og:title" content="Marta Tomczak - To do list" />
+    <meta property="og:type" content="to do list" />
+    <meta property="og:url" content="" />
+    <link rel="icon" href="./assets/logo_photo.png" />
+    <meta property="og:image" content="./toDoList.jpg" />
 
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
       integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
       crossorigin="anonymous"
-      referrerpolicy="no-referrer">
+      referrerpolicy="no-referrer"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-      rel="stylesheet">
+      rel="stylesheet"
+    />
 
-    <link href="./index.html" rel="stylesheet">
-    <link href="./styles/main.css" rel="stylesheet">
-    <link href="./script/main.js" rel="stylesheet">
+    <link href="./index.html" rel="stylesheet" />
+    <link href="./styles/main.css" rel="stylesheet" />
+    <link href="./script/main.js" rel="stylesheet" />
     <script defer src="./script/main.js"></script>
   </head>
 
@@ -36,12 +38,12 @@
     <section class="section">
       <h2 class="section__header">Dodaj nowe zadanie</h2>
       <div class="section__body">
-        
         <form class="form js-form">
           <input
             class="form__newTask js-newTask"
-            placeholder="Co jest do zrobienia?">
-          <button class="form__button">Dodaj nowe zadanie</button>
+            placeholder="Co jest do zrobienia?"
+          />
+          <button class="form__button js-formButton">Dodaj nowe zadanie</button>
         </form>
       </div>
     </section>
@@ -49,10 +51,16 @@
     <section class="section">
       <h2 class="section__header">Lista zadań</h2>
       <div class="section__body">
-        <ul class="tasks js-tasks"></ul>
-        <button
+        <ul class="tasks js-tasks">
+          <!-- <li class="tasks__item">
+            <button class="tasks__button tasks__button--done"></button>
+            <p class="tasks__text"></p>
+            <button class="tasks__button tasks__button--delete">🗑️</button>
+          </li> -->
+        </ul>
+        <!-- <button
           class="tasks__button tasks__button--toggleDone js-toggleDone"
-        ></button>
+        ></button> -->
       </div>
     </section>
   </body>
