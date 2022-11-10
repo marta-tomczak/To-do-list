@@ -8,19 +8,29 @@
   padding: 20px;
 }
 
-.section__header {
+.section__container {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+}
+
+.section__container__header {
   font-size: 20px;
   padding: 20px;
   margin: 0;
-  border-bottom: 1px solid #ddd;
 }
 
 @media (max-width: 767px) {
   .section-header {
-    padding: 10px;
+    padding: 20px;
     margin: 5px auto;
     background-color: rgb(255, 255, 255);
     font-weight: 700;
     font-size: 15px;
   }
+}
+
+.section-header {
+  padding: 40px;
+  margin: 5px auto;
 }

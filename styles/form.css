@@ -15,6 +15,7 @@
 .form__newTask {
   border: 2px solid #ddd;
   padding: 10px;
+  width: 100%;
 }
 
 .form__button {
@@ -22,10 +23,13 @@
   background: teal;
   color: white;
   border: none;
+  transition: 250ms ease-in-out background-color, 250ms ease-in-out transform;
+  cursor: pointer;
 }
 
 .form__button:hover {
   background: hsl(180, 100%, 30%);
+  transform: scale(1.05);
 }
 
 .form__button:active {

@@ -1,0 +1,12 @@
+.header {
+}
+.container-button {
+  display: flex;
+}
+
+.container-button__button {
+  color: teal;
+  background-color: transparent;
+  border: none;
+  margin: 5px;
+}

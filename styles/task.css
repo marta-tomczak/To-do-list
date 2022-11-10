@@ -21,10 +21,11 @@
   outline: none;
   width: 30px;
   height: 30px;
-  font-size: 16px;
+  font-size: 14px;
   color: white;
   background-color: green;
   transition: background-color 250ms ease-in-out;
+  cursor: pointer;
 }
 .tasks__button:hover {
   background-color: hsl(120, 100%, 35%);
