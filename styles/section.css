@@ -15,7 +15,7 @@
 }
 
 @media (max-width: 767px) {
-  .section__containe {
+  .section__container {
     padding: 20px;
     margin: 5px auto;
     background-color: rgb(255, 255, 255);
