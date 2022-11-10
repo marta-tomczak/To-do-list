@@ -110,11 +110,18 @@ html {
   align-items: center;
   border: none;
   outline: none;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   font-size: 16px;
   color: white;
   background-color: green;
+  transition: background-color 250ms ease-in-out;
+}
+.tasks__button:hover {
+  background-color: hsl(120, 100%, 35%);
+}
+.tasks__button:active {
+  background-color: hsl(120, 100%, 25%);
 }
 .tasks__button--done + .tasks__text {
   text-decoration: line-through;
@@ -124,14 +131,14 @@ html {
   content: "✔";
 }
 
-.tasks__button--done:hover {
-  color: rgb(1, 110, 1);
-}
-
-.tasks__button--done:active {
-  color: rgb(1, 110, 0);
-}
-
 .tasks__button--delete {
   background-color: red;
+}
+
+.tasks__button--delete:hover {
+  background-color: crimson;
+}
+
+.tasks__button--delete:active {
+  background-color: hsl(0, 100%, 40%);
 }
