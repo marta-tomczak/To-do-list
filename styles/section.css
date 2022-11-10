@@ -12,8 +12,6 @@
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid #ddd;
-  flex-direction: column;
-  display: flex;
 }
 
 @media (max-width: 767px) {
@@ -23,6 +21,8 @@
     background-color: rgb(255, 255, 255);
     font-weight: 700;
     font-size: 15px;
+    flex-direction: column;
+    display: flex;
   }
 }
 .section__container__header {
