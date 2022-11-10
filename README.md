@@ -6,7 +6,7 @@
 ## Link
 https://marta-tomczak.github.io/To-do-list/
 
-![picture](https://github.com/marta-tomczak/To-do-list/blob/master/assets/toDoList.jpg)
+<img src="https://github.com/marta-tomczak/To-do-list/blob/master/assets/toDoList.jpg" width="600"/>
 
 ## Features
 - Adding/removing your tasks
