@@ -3,6 +3,8 @@ Hello, my names is *Marta Tomczak*. Invite look to on my 3rd website project as 
 # Link
 https://marta-tomczak.github.io/To-do-list/
 
+![picture](https://github.com/marta-tomczak/To-do-list/blob/master/assets/toDoList.jpg)
+
 ## General Information
 - The project was created as part of the YouCode programming course.
 - It helps to organize your own time and doesn't let you forget about things to do.
