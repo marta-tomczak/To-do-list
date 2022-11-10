@@ -12,6 +12,8 @@
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid #ddd;
+  flex-direction: column;
+  display: flex;
 }
 
 @media (max-width: 767px) {
@@ -32,5 +34,4 @@
 .section__header {
   padding: 20px;
   margin: 5px auto;
-  flex-direction: column;
 }
