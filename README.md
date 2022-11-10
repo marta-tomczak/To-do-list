@@ -21,9 +21,10 @@ Project is: **complete**.
 
 ## Tech stack:
 - HTML
-- CSS
+- CSS (Grid/Flex modules)
 - JavaScript
-- BEM
+- BEM convention
+- Immutability convention
 - Markdown
 
 
