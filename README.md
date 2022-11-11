@@ -14,7 +14,7 @@ https://marta-tomczak.github.io/To-do-list/
 - Hiding ready tasks 
 - Setting all tasks ready with one button
 
-<img src="https://github.com/marta-tomczak/To-do-list/blob/master/assets/image_to_do_list.jpg" width="600"/>
+<img src="https://github.com/marta-tomczak/To-do-list/blob/master/assets/animation_to_do_list.jpg" width="600"/>
 
 ## Project Status
 Project is: **complete**.
