@@ -77,12 +77,14 @@ const showTasks = () => {
   render();
 };
 const render = () => {
-  let taskList = [...tasks];
+  let taskList = tasks.map((task, index) => {
+    return { ...task, index };
+  });
   if (isDoneTasksHidden) taskList = taskList.filter((task) => !task.done);
 
   jsTasks.innerHTML = "";
   jsTasks.append(
-    ...taskList.map((task, index) => createTaskElement(task, index))
+    ...taskList.map((task) => createTaskElement(task, task.index))
   );
 };
 const jsDivButtonChangeText = () => {
