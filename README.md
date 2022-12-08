@@ -6,7 +6,7 @@
 ## Link
 https://marta-tomczak.github.io/To-do-list/
 
-<img src="https://github.com/marta-tomczak/To-do-list/blob/master/assets/toDoList.jpg" width="600"/>
+<img src="https://github.com/marta-tomczak/To-do-list/blob/master/assets/main_image_toDoList.jpg" width="600"/>
 
 ## Features
 - Adding/removing your tasks
@@ -14,7 +14,7 @@ https://marta-tomczak.github.io/To-do-list/
 - Hiding ready tasks 
 - Setting all tasks ready with one button
 
-<img src="https://github.com/marta-tomczak/To-do-list/blob/master/assets/image_to_do_list.jpg" width="600"/>
+<img src="https://github.com/marta-tomczak/To-do-list/blob/master/assets/animation_to_do_list.jpg" width="600"/>
 
 ## Project Status
 Project is: **complete**.
